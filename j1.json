@@ -1,14 +1,8 @@
-[
-  {
-    "name" : "Prothes",
-    "email" : "@gmail.com",
-    "password" : "password"
-  },
-
-  {
-    "name" : "Prothes",
-    "email" : "@gmail.com",
-    "password" : "password"
+{
+    "fname" : "Prothes",
+    "lname" : "Barai",
+    "email" : "asp@gmail.com",
+    "phn" : "01317xxxx",
+    "id" : "god",
+    "password" : "json"
   }
-  
-]
