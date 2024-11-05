@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp"
+    android:gravity="center"
+    >
+
+    <com.mursaat.extendedtextview.AnimatedGradientTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        app:colors="@array/funny_colors"
+        app:simultaneousColors="4"
+        app:angle="45"
+        app:speed="1000"
+        app:maxFPS="30"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/title"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="15dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cursorColor="@color/sky"
+            android:textColorHint="@color/secondary_text"
+            app:hintTextColor="@color/sky"
+            app:boxStrokeColor="@color/primary"
+            app:endIconMode="clear_text"
+            android:layout_marginEnd="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:id="@+id/firstName"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cursorColor="@color/sky"
+            android:textColorHint="@color/secondary_text"
+            app:hintTextColor="@color/sky"
+            app:boxStrokeColor="@color/primary"
+            app:endIconMode="clear_text"
+            android:layout_marginStart="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:id="@+id/lastName"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cursorColor="@color/sky"
+            android:textColorHint="@color/secondary_text"
+            app:hintTextColor="@color/sky"
+            app:boxStrokeColor="@color/primary"
+            app:endIconMode="clear_text"
+            android:layout_marginEnd="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your E-mail"
+                android:id="@+id/eMails"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cursorColor="@color/sky"
+            android:textColorHint="@color/secondary_text"
+            app:hintTextColor="@color/sky"
+            app:boxStrokeColor="@color/primary"
+            app:endIconMode="clear_text"
+            android:layout_marginEnd="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Phone Number"
+                android:id="@+id/phnNo"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:inputType="phone"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cursorColor="@color/sky"
+            android:textColorHint="@color/secondary_text"
+            app:hintTextColor="@color/sky"
+            app:boxStrokeColor="@color/primary"
+            app:endIconMode="clear_text"
+            android:layout_marginEnd="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your NID"
+                android:id="@+id/nidNo"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cursorColor="@color/sky"
+            android:textColorHint="@color/secondary_text"
+            app:hintTextColor="@color/sky"
+            app:boxStrokeColor="@color/primary"
+            app:endIconMode="password_toggle"
+            android:layout_marginEnd="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Password"
+                android:id="@+id/passwords"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:lottie_rawRes="@raw/animated_loader"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:visibility="gone"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Parsing Data"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="20dp"
+        android:visibility="visible"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnreset"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="20dp"
+        android:visibility="gone"
+        />
+
+
+
+</LinearLayout>

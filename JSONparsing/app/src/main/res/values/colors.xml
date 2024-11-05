@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sky">#009688</color>
+    <color name="colors">#FF5722</color>
+
+    <color name="primary">#2D7DF6</color>
+    <color name="background">#E4EBF5</color>
+    <color name="primary_text">#0B0D0C</color>
+    <color name="secondary_text">#7D818A</color>
+    <color name="dark_shadow">#CDD5EA</color>
+    <color name="light_shadow">#F8F9FE</color>
+    <color name="dark_icon">#212121</color>
+
+    <array name="funny_colors">
+        <item>@color/sky</item>
+        <item>@color/colors</item>
+        <item>@color/primary</item>
+        <item>#9C27B0</item>
+    </array>
+
+</resources>
