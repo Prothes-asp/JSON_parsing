@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private AppCompatButton btn,btnreset;
     private LottieAnimationView animationView;
     private AnimatedGradientTextView title;
-    private String url = "https://prothes-asp.github.io/JSON_parsing/j1.json";
+    private String url = "https://prothes-asp.github.io/JSON_Object_Parsing/j1.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
