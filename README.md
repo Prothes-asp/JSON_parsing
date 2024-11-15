@@ -10,7 +10,7 @@ implementation on your project
 
 #### Step 1 : 
 
-```bash
+```java
     dependencies {
 
         implementation 'com.android.volley:volley:1.2.1'
@@ -21,7 +21,7 @@ implementation on your project
 
 #### Step 2 : [ When You uses Only PHP file Link ]
 
-```bash
+```java
     StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -45,7 +45,7 @@ implementation on your project
 
 #### Step 2 : [ When You uses Only JSON object ]
 
-```bash
+```java
     StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
